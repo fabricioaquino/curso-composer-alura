@@ -1,4 +1,4 @@
-#!/usr/bin/env.php
+#!/usr/bin/env php
 <?php
 
 require 'vendor/autoload.php';
@@ -26,5 +26,5 @@ $cursos = $buscador->buscar('/cursos-online-programacao/php');
 
 foreach ($cursos as $curso) {
     //$curso é um elemento DOM
-    echo exibeMensagem($curso);
+    exibeMensagem($curso);
 }
